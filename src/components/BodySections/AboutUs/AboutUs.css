@@ -1,0 +1,41 @@
+.aboutUs_section{
+  margin-top: 150px;
+}
+
+.aboutUs_content_container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+
+.aboutUs_gallery img{
+  width: 95%;
+}
+.aboutUs_content{
+  color: #fff;
+}
+.aboutUs_content span{
+  background-color: rgba(240, 248, 255, 0.212);
+  padding: 10px 40px;
+  border-radius: 30px;
+}
+.aboutUs_content h2{
+  font-size: 45px;
+  margin: 20px 0px;
+}
+.aboutUs_content p{
+  color: rgba(240, 248, 255, 0.678);
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.aboutUs_content button{
+  display: flex;
+  align-items: center;
+  padding: 12px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid var(--primary-color);
+  border-radius: 30px;
+  background: var(--primary-color);
+  color: black;
+}

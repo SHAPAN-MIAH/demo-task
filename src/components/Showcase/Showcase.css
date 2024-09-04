@@ -1,0 +1,66 @@
+.showcase_section {
+  height: auto;
+}
+
+.showcase_container {
+  width: 1320px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.ellipse1, .ellipse2{
+  position: absolute;
+}
+ .ellipse2{
+  position: absolute;
+  margin-left: 50vw;
+}
+.showcase_head {
+  color: #fff;
+  margin: auto;
+}
+.showcase_head h2 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.showcase_head p {
+  font-size: 20px;
+}
+
+.showcase_btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+.showcase_btn button {
+  display: flex;
+  align-items: center;
+  padding: 14px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.showcase_head button {
+  background: var(--primary-color);
+  color: black;
+}
+.showcase_head button:last-child {
+  background: #ffffff1f;
+  color: rgb(255, 255, 255);
+}
+.showcase_head button span {
+  margin-right: 10px;
+}
+
+.videoContainer{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
